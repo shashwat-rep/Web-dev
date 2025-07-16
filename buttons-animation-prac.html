@@ -1,0 +1,80 @@
+<style>
+  .pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between items */
+  }
+  .stretch-button{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    transition: padding-left 0.5s, padding-right 0.5s,padding-top 0.5s,padding-bottom 0.5s;
+  }
+  .stretch-button:hover {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+  .shadow-button {
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  .shadow-button:hover {
+    box-shadow: 5px 5px 10px rgb(112, 112, 112);
+    opacity: 0.8;
+  }
+  .shadow-button:active {
+    opacity: 0.6;
+  }
+  .buttons {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    transition: padding-left 0.5s, padding-right 0.5s, padding-top 0.5s, adding-bottom 0.5s, margin-left 0.5s, margin-right 0.5s;
+  }
+  .buttons:hover {
+    padding-left: 30px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-right: 0px;
+    padding-top: 10px;
+  }
+</style>
+
+<div class="pagination">
+  <button>Back</button>
+  <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=4743s">1</a>
+  <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=4743s">2</a>
+  <a href="https://youtu.be/2V7yPrxJ8Ck?si=tbg8D8aAFFvG9I61">3</a>
+  <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=4743s">4</a>
+  <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=4743s">5</a>
+  <button>Next</button>
+</div>
+
+<button class="stretch-button">Stretch</button>
+<br>
+<button class="shadow-button">Shadow</button>
+<br>
+<button class="buttons">One</button>
+<button class="buttons">Two</button>
+<button class="buttons">Three</button>
