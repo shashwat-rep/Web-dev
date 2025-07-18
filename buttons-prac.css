@@ -1,0 +1,98 @@
+.request-now-button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 125px;
+    cursor:grab;
+    transition: opacity 0.15s;
+}
+/*These are pseudo class*/
+.request-now-button:hover {
+    /* opacity is used to fade out a button - it's values lies in between 0 to 1 */
+    opacity: 0.7;
+}
+.request-now-button:active {
+    opacity: 0.5;
+}
+
+.add-to-cart-button {
+    background-color: rgb(242, 236, 118);
+    border: none;
+    height: 34px;
+    width: 180px;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.add-to-cart-button:hover {
+    /* box shadow example : horizontal vertical blur colour*/
+    box-shadow: 5px 5px 10px rgb(146, 147, 147);
+}
+.sign-up-button {
+    background-color: rgb(78, 182, 107);
+    color: rgb(252, 250, 250);
+    border: none;
+    height: 32px;
+    width: 85px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.get-started-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    height: 38px;
+    width: 115px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.download-button {
+    color: rgb(134, 134, 134);
+    border-color: rgb(166, 168, 169);
+    background-color: white;
+    font-weight: bold;
+    height: 38px;
+    width: 115px;
+    border-radius: 4px;
+    border-width: 0.2mm;
+    border-style: solid;    
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+.apply-on-company-website-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    /* height: 32px;
+    width: 195px; 
+    We will use padding instead of these because if text is larger, then it will overflow the button*/
+    padding-left: 17px;
+    padding-bottom: 10px;
+    padding-right: 17px;
+    padding-top: 40px;
+    border-radius: 16px;
+}
+.save-button {
+    background-color: white;
+    border-color: rgb(10, 102, 194);
+    color: rgb(10, 102, 194);
+    border-style: solid;
+    border-width: 0.1mm ;
+    border-radius: 16px;
+    height: 32px;
+    width: 65px;
+    font-weight: bold;
+    /* use of allign */
+    vertical-align: top;
+    /* transition example */
+    transition: background-colour 6s,
+        colour 6s;
+}
+.save-button:hover {
+    background-color: rgb(10, 102, 194);
+    color: white;
+}
+.save-button:active {
+    opacity: 0.7;
+}
