@@ -1,0 +1,13 @@
+.a8 {
+    display: block;
+    margin-top:5px;
+}
+.b8a {
+    display: inline-block;
+    width: 200px;
+    /* we needed to allign only the text part only not the buttons because they are auto alligned */
+    vertical-align: middle;
+}
+.b8b {
+    display: inline-block;
+}
