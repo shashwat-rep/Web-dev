@@ -120,13 +120,7 @@
     border-radius: 4px;
     margin-bottom: 5px;
 }
-.f9f {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    object-position:center;
-}
-.f9g {
+.f9f, .f9g {
     height: 150px;
     width: 150px;
     object-fit: cover;
