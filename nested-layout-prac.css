@@ -38,3 +38,119 @@
     margin-bottom: 3px;
     margin-top: 0;
 }
+.a10 {
+    display: block;
+    margin-bottom: 10px;
+    width:300px
+}
+.b10a {
+    width: 50px;
+    border-radius: 30px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.b10c {
+    display: inline-block;
+    margin-right: 95px;
+    vertical-align: top;
+}
+.b10d {
+    display: inline-block;
+    margin-right: 100px;
+    vertical-align: top;
+}
+.c10a {
+    width: 180px;
+    display: inline-block;
+    height: 100px;
+    object-fit:cover;
+}
+.c10d {
+    display: inline-block;
+    font-family: Arial;
+    vertical-align: top;
+    margin-left: 4px;
+}
+.c10b {
+    font-weight: bold;
+    width: 209px;
+    margin-top: 0px;
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.c10c {
+    margin-top: 5px;
+    color: grey;
+    font-size: 13px;
+    line-height: 18px;
+}
+.c10 {
+    margin-bottom: 4px;
+}
+.e10a {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: right;
+}
+.e10b {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: left;
+    display: inline-block;
+}
+.e10c {
+    color: gray;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 3px;
+    vertical-align: top;
+    margin-bottom: 0;
+    margin-left: 3px;
+}
+.e10d {
+    color: white;
+    border: none;
+    background-color: rgb(79, 141, 246);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 0px;
+    vertical-align:top;
+}
+.e10e {
+    margin-bottom: 3px;
+    margin-top: 0;
+}
+.e10f {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 3px;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.e10 {
+    box-shadow: 0 0 3px gray;
+    display: inline-block;
+    margin-right: 9px;
+}
+.e10g {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.e10h {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
