@@ -1,0 +1,33 @@
+.a12a, .b12a {
+    display: flex;
+    flex-direction: row;
+}
+.a12b {
+    background-color: blue;
+    width:200px;
+}
+.a12c {
+    background-color: pink;
+    display: flex;
+    width: 75px;
+}
+.b12b {
+    background-color: blue;
+    width: 50px;
+}
+.b12c {
+    background-color: pink;
+    flex:1
+}
+.b12d {
+    background-color: blue;
+    width: 75px;
+}
+.c12a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.c12b {
+    background-color: pink;
+}
