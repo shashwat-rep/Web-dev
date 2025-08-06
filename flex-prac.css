@@ -157,9 +157,10 @@ body {
     margin-left: 15px;
 }
 .f12c {
-    width: 800px;
+    min-width: 80px;
     height: 28px;
     padding-left: 25px;
+    flex:1;
     border-radius: 14px;
     border: none;
 }
@@ -171,4 +172,14 @@ body {
     border-width: 1px;
     height: 29px;
     margin-right: 13px;
+}
+.f12e {
+    width: 800px;
+    display: flex;
+}
+.f12f {
+    margin-right: 100px;
+}
+.f12g {
+    margin-left: 100px;
 }
