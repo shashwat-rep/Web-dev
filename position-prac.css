@@ -1,11 +1,11 @@
-/* .a14a {
+.a14a {
     background-color: black;
     color: white;
     position: fixed;
     bottom: 20px;
     right: 20px;
-} */
-/* .a14b{
+}
+.a14b{
     background-color: green;
     color: white;
     position:fixed;
@@ -13,15 +13,15 @@
     top:0px;
     bottom: 0px;
     width: 120px;
-} */
-/* .a14c{
+}
+.a14c{
     background-color: black;
     position: fixed;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-} */
+}
 .d14a{
     background-color: rgb(27, 151, 27);
     color: white;
@@ -59,4 +59,105 @@
 }
 .d14d{
     padding-top: 20px;
+}
+.e14a {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 30px;
+}
+.e14b {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 120px;
+    left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.e14c {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.e14d {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 16px;
+}
+.e14e {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding:11px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.e14f {
+    background-color: rgb(225, 225, 226);
+    color: rgb(6, 6, 6);
+    border:none;
+    padding:11px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.f14a {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color:rgb(42, 42, 41) ;
+    width: 70px;
+}
+.f14b {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position:center;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.f14c {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position:right;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.f14d {
+    position: fixed;
+    left:70px;
+    top:0;
+    bottom:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(62, 62, 62);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f14e {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    padding-top: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.f14f {
+    color: rgb(155, 154, 154);
+    margin-top: 15px;
+}
+.f14g {
+    color: rgb(155, 154, 154);
+    font-size: 24px;
 }
