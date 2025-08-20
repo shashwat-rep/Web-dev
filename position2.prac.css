@@ -1,0 +1,51 @@
+.a15a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    padding: 10px;
+    padding-right: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 14px;
+    color: white;
+    border-radius: 22px;
+}
+body {
+    height: 2000px;
+}
+.b15a {
+    background-color: gray;
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.c15a {
+    background-color: gray;
+    width: 320px;
+    height: 180px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.c15b {
+    position: absolute;
+    top: -13px;
+    left: -13px;
+    background-color: black;
+    padding: 10px;
+    padding-right: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 14px;
+    color: white;
+    border-radius: 22px;
+}
+.c15c {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
